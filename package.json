@@ -4,12 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js && start http://localhost:8080"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
+    "@types/forge-viewer": "^7.69.9",
+    "cookie-session": "^2.0.0",
+    "dotenv": "^16.3.2",
+    "express": "^4.18.2",
+    "forge-apis": "^0.9.9"
+  },
+  "config": {},
+  "devDependencies": {
+    "open": "^10.0.3"
   }
 }
